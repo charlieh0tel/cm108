@@ -1,5 +1,7 @@
+CFLAGS=-Wall -Werror -pedantic
+
 cm108: cm108.c
-	cc -o $@ $^ -lusb -ludev
+	cc $(CFLAGS) -o $@ $^ -lusb -ludev
 
 .PHONY: install
 install: cm108
