@@ -10,4 +10,4 @@ install: cm108
 
 .PHONY: clean
 clean:
-	rm -f cm108 *.o
+	rm -f cm108
