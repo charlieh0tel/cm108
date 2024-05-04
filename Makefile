@@ -1,7 +1,7 @@
+LDLIBS=-lusb -ludev
 CFLAGS=-Wall -Werror -pedantic
 
 cm108: cm108.c
-	cc $(CFLAGS) -o $@ $^ -lusb -ludev
 
 .PHONY: install
 install: cm108
